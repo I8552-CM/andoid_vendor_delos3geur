@@ -35,9 +35,6 @@ PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/bin/rmt_oeminfo:system/bi
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/bin/rmt_storage:system/bin/rmt_storage
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app
 
-PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/lib/hw/sensors.msm8x25q_skud.so:system/lib/hw/sensors.msm8x25q_skud.so
-PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/lib/hw/sensors.msm8x25q_skue.so:system/lib/hw/sensors.msm8x25q_skue.so
-PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/lib/hw/sensors.msm7627a_sku7.so:system/lib/hw/sensors.msm7627a_sku7.so
 
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/lib/liballjoyn.so:system/lib/liballjoyn.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/common/lib/libaudcal.so:obj/lib/libaudcal.so

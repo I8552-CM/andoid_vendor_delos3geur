@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/netmgrd:system/bi
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/oem_rpc_svc:system/bin/oem_rpc_svc
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/qmiproxy:system/bin/qmiproxy
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/qmuxd:system/bin/qmuxd
-#PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/rild:system/bin/rild
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/thermald:system/bin/thermald
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/wlan_detect:system/bin/wlan_detect
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/psensorCal:system/bin/psensorCal
@@ -34,10 +33,10 @@ PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/geomagneticd:syst
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/orientationd:system/bin/orientationd
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/bin/sensord:system/bin/sensord
 
-#PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/hw/sensors.msm8625_i6.so:system/lib/hw/sensors.msm8625_i6.so
-PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/hw/sensors.msm7x27a.so:system/lib/hw/sensors.msm7x27a.so
+
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so
+PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libadc.so:system/lib/libadc.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libauth.so:system/lib/libauth.so
@@ -68,12 +67,12 @@ PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libqmi_client_qmu
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libqmiservices.so:system/lib/libqmiservices.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libqmi.so:system/lib/libqmi.so
-#PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libreference-ril.so:system/lib/libreference-ril.so
+
 
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libril-qc-1.so:system/lib/libril-qc-1.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
-#PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libril.so:system/lib/libril.so
+
 
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libuim.so:system/lib/libuim.so
 PRODUCT_COPY_FILES += vendor/samsung/delos3geur/delos3geur/lib/libwms.so:system/lib/libwms.so
